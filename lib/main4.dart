@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audioplayers.dart';
-import 'AudioPlayerScreen.dart';
+import 'Bai7_multimedia/AudioPlayerScreen.dart';
 
 void main() {
   runApp(const MyApp());

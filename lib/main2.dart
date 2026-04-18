@@ -1,6 +1,6 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'PhotoScreen.dart';
+import 'Bai7_multimedia/PhotoScreen.dart';
 void main() {
   runApp(const MyApp());
 }
