@@ -1,6 +1,6 @@
-import 'dart:io';
 import 'package:flutter/material.dart';
-import 'Bai7_multimedia/VideoRecorderScreen.dart';
+import 'Bai7_BTVN_multimedia/MusicPlayerScreen.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -10,9 +10,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: VideoRecorderScreen(),
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
+      home: MusicPlayerScreen(),
     );
   }
 }
